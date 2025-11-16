@@ -4,10 +4,17 @@ body {
   font-family: "Sora", sans-serif;
 }
 
-button , select{
+button,
+select {
   font-family: "Sora", sans-serif;
+  background-color: rgb(14, 112, 173);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
 }
-
 
 header {
   background-color: rgb(14, 112, 173);
@@ -64,6 +71,12 @@ main {
 
 form {
   background-color: rgb(14, 112, 173);
+  font-family: "Sora", sans-serif;
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+
   color: white;
   display: none;
   flex-direction: column;
@@ -94,10 +107,34 @@ form {
     padding: 7px;
     border: none;
     border-radius: 5px;
+    background-color: white;
+    color: black;
   }
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    padding: 10px;
+
+    thead {
+         background-color: rgb(14, 112, 173);
+         color: white;
+         font-size: 26px;
+         
+         th {
+            padding: 10px;
+         }
+    }
+
+    tbody {
+       font-size: 24px;
+
+       td {
+            padding: 10px;
+       }
+    }
 }
